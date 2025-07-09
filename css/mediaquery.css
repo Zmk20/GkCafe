@@ -1,7 +1,11 @@
-@media (max-width: 600px) {
+@media (max-width: 725px) {
   body{ position: relative;
-   overflow: hidden; }
-
+   overflow-x: hidden; }
+.menu{
+        display: block;
+        cursor: pointer;
+        position: relative;
+    }
 .nav-items{
     position: absolute;
     top: 80px;
@@ -21,4 +25,14 @@
 .show{
     transform: scale(1);
 }
+.banner-content{
+  width: 80%;
+  height: 100vh;
+  flex-direction: column;
+  
+  gap: 40px;}
+  .about-section{
+    flex-direction: column;
+    gap: 40px;
+  }
 }
