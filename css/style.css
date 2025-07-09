@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background: #2a7b9b;
+  background: #3bb8a3;
+  background: linear-gradient(
+      90deg,
+      rgba(59, 184, 163, 1) 0%,
+      rgba(72, 181, 159, 0.914) 8%,
+      rgba(111, 209, 178, 1) 18%,
+      rgba(237, 221, 83, 0.266) 100%
+    ),
+    url(../photos/cake12.jpg);
+  background-size: cover;
+  background-position: center;
+}
+nav{
+    width: 80%;
+    height: 70px;
+    background:  rgba(10, 162, 147, 0.747);
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    border-radius: 40px;
+
+}
+.menu{
+  display: none;
+}
+.logo{
+  display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.nav-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.banner-content{
+    width: 80%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
