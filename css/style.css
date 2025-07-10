@@ -17,10 +17,10 @@ header{
   background: #3bb8a3;
   background: linear-gradient(
       90deg,
-      rgba(59, 184, 163, 1) 0%,
-      rgba(72, 181, 159, 0.914) 8%,
-      rgba(111, 209, 178, 1) 18%,
-      rgba(237, 221, 83, 0.266) 100%
+      rgba(59, 184, 163, 0.668) 0%,
+      rgba(72, 181, 159, 0.673) 8%,
+      rgba(111, 209, 178, 0.704) 18%,
+      rgba(237, 221, 83, 0.133) 100%
     ),
     url(../photos/cake12.jpg);
   background-size: cover;
@@ -64,7 +64,7 @@ nav{
 }
 .btn-group{
     background: #fff;
-    padding: 10px 20px;
+    padding: 8px 15px;
     border-radius: 40px;
     cursor: pointer;
     padding: 15px 20px;
@@ -111,6 +111,86 @@ section{width: 100%;
   flex-direction: column;
   gap: 10px;
 }
+.contact-section{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+padding: 10px 0px;
 
+}
+.contact-img,.contact-base{
+  flex: 0.3;
+}
+.contact-img{
+ 
+  background-image: url(../photos/cake11.jpg);
+ background-size: cover;
+ background-position: center;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ gap: 20px;
+ 
+ 
+}
 
+.contact-content{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding: 20px;
+}
+.contact-info,.contact-address,.contact-form{
+  flex: 1;
+}
+.contact-address{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.contact-info p{
+  margin-top: 20px;
+}
+.contact-form h3{
+  margin-bottom: 20px;
+}
+form input{
+height: 30px;
+padding: 10px;
+border-radius: 10px;
+margin-bottom: 20px;
+}
+form textarea{
+height: 100px;
+padding: 10px;
+border-radius: 10px;
+margin-bottom: 20px;
+}
+form button{
+  padding: 7px;
+  border-radius: 10px;
+  background: #349bc4bc;
+  color: #fff;
+}
+.contact-base {
+  background-image: url(../photos/cake9.jpg);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.contact-base a{
+  margin-right: 20px;
+  color: #1223a7;
+  font-size: 17px;
+  
+}
 
